@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="edu.uw.maksach.infoapp.MatchActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Match Songs"
+        android:textColor="#333333"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:paddingBottom="10dp"
+        android:id="@+id/match"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/match"
+        android:id="@+id/filters"
+        android:paddingBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Genre"
+            android:textSize="20sp"
+            android:textColor="#FF4878"
+            android:layout_weight="1"
+            android:id="@+id/genres"/>
+        <Spinner
+            android:id="@+id/genre_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/genres"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tempo"
+            android:textColor="#FF4878"
+            android:layout_below="@id/genre_spinner"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:id="@+id/tempo"/>
+        <Spinner
+            android:id="@+id/tempo_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/tempo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Key"
+            android:textColor="#FF4878"
+            android:layout_below="@id/tempo_spinner"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:id="@+id/key"/>
+        <Spinner
+            android:id="@+id/key_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/key"/>
+    </RelativeLayout>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button"
+        android:layout_below="@id/filters"
+        android:layout_centerHorizontal="true"
+        android:text="Find Match"
+        android:onClick="findMatch"/>
+
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">InfoApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string-array name="songs_array">
+        <item>Afire Love - Ed Sheeran</item>
+        <item>All We Do - Trey Songz</item>
+        <item>All Your Friends - Coldplay</item>
+        <item>Always In My Head - Coldplay</item>
+        <item>Amnesia - Justin Timberlake</item>
+        <item>Amsterdam - Coldplay</item>
+        <item>Another\'s Arms - Coldplay</item>
+        <item>Au Revoir - OneRepublic</item>
+        <item>Beacon - Two Door Cinema Club</item>
+        <item>Blindness - Justin Timberlake</item>
+        <item>Bloodstream - Ed Sheeran</item>
+        <item>Blue Ocean Floor - Justin Timberlake</item>
+        <item>Body Count - Justin Timberlake</item>
+        <item>Burning Bridges - OneRepublic</item>
+        <item>Cabaret - Justin Timberlake (ft. Drake)</item>
+        <item>Cake - Trey Songz</item>
+        <item>Cake Boy - Hoodie Allen</item>
+        <item>Can\'t Stop - One Republic</item>
+        <item>Center Stage - Capital Cities</item>
+        <item>Charlie Brown - Coldplay</item>
+        <item>Chartreuse - Capital Cities</item>
+        <item>Chasing You - Capital Cities</item>
+    </string-array>
+    <string-array name="genres_array">
+        <item>Blues</item>
+        <item>Classical</item>
+        <item>Country</item>
+        <item>Electronic</item>
+        <item>International</item>
+        <item>Jazz</item>
+        <item>Latin</item>
+        <item>Pop</item>
+        <item>Rock</item>
+        <item>R&amp;B</item>
+        <item>Rap</item>
+        <item>Reggae</item>
+    </string-array>
+    <string-array name="tempos_array">
+        <item>60 bpm</item>
+        <item>70 bpm</item>
+        <item>80 bpm</item>
+        <item>90 bpm</item>
+        <item>100 bpm</item>
+        <item>110 bpm</item>
+        <item>120 bpm</item>
+        <item>130 bpm</item>
+        <item>140 bpm</item>
+        <item>150 bpm</item>
+        <item>160 bpm</item>
+    </string-array>
+    <string-array name="keys_array">
+        <item>B major</item>
+        <item>Bb major</item>
+        <item>A major</item>
+        <item>Ab major</item>
+        <item>G major</item>
+        <item>Gb major</item>
+        <item>F# major</item>
+        <item>F major</item>
+        <item>E major</item>
+        <item>Eb major</item>
+        <item>D major</item>
+        <item>Db major</item>
+        <item>C# major</item>
+        <item>C major</item>
+        <item>Cb major</item>
+        <item>B minor</item>
+        <item>Bb minor</item>
+        <item>A# minor</item>
+        <item>A minor</item>
+        <item>Ab minor</item>
+        <item>G# minor</item>
+        <item>G minor</item>
+        <item>F# minor</item>
+        <item>F minor</item>
+        <item>E minor</item>
+        <item>Eb minor</item>
+        <item>D# minor</item>
+        <item>D minor</item>
+        <item>C# minor</item>
+        <item>C minor</item>
+    </string-array>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_match">MatchActivity</string>
+</resources>

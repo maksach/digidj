@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="pref_text"
+        android:title="Auto-Reply Message"
+        android:summary="Enter a message you want automatically reply "/>
+
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="pref_autoreply"
+        android:title="Auto-Reply" />
+
+</PreferenceScreen>
